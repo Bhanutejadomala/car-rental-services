@@ -1,0 +1,151 @@
+<!-- reviews -->
+<section id="reviews" class="reviews">
+    <div class="review-heading">
+        <span>Reviews</span>
+        <h1>What Our Customer Say</h1>
+    </div>
+
+    <div class="review-container">
+        <div class="review-box">
+            <div class="rev-img">
+                <img src="images/rev1.jpg" alt="">
+            </div>
+            <h2>Robert Downey Junior</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sint sequi culpa dolorem ab natus ipsum quod autem exercitationem dolore.</p>
+        </div>
+
+        <div class="review-box">
+            <div class="rev-img">
+                <img src="images/rev2.jpg" alt="">
+            </div>
+            <h2>Scarlett Johnson</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci veritatis ratione quidem cumque esse laudantium possimus deleniti dolorem.</p>
+        </div>
+
+        <div class="review-box">
+            <div class="rev-img">
+                <img src="images/rev3.jpg" alt="">
+            </div>
+            <h2>Chris HemsWorth</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cum facere tenetur ea officia. Et similique possimus veritatis odio aliquam.</p>
+        </div>
+    </div>
+
+    <div class="review-container">
+        <div class="review-box">
+            <div class="rev-img">
+                <img src="images/rev1.jpg" alt="">
+            </div>
+            <h2>Robert Downey Junior</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sint sequi culpa dolorem ab natus ipsum quod autem exercitationem dolore.</p>
+        </div>
+
+        <div class="review-box">
+            <div class="rev-img">
+                <img src="images/rev2.jpg" alt="">
+            </div>
+            <h2>Scarlett Johnson</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci veritatis ratione quidem cumque esse laudantium possimus deleniti dolorem.</p>
+        </div>
+
+        <div class="review-box">
+            <div class="rev-img">
+                <img src="images/rev3.jpg" alt="">
+            </div>
+            <h2>Chris HemsWorth</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque cum facere tenetur ea officia. Et similique possimus veritatis odio aliquam.</p>
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  /* reviews */
+  .reviews{
+   margin-top: 5rem;
+  }
+  .review-heading{
+      text-align: center;
+  }
+  .review-heading span{
+      font-weight: 600;
+      text-transform: uppercase;
+  }
+  .review-heading h1{
+      font-size: 2rem;
+  }
+  .review-container {
+      display: flex;
+      justify-content:center;
+      align-items:center;
+      gap: 20px;
+      margin-top: 50px;
+  }
+  .review-box{
+      padding: 50px;
+      border-radius: 1rem;
+      box-shadow: 1px 1px 10px black;
+  }
+  .rev-img{
+      width: 90px;
+      height: 90px;
+  }
+  .rev-img img{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+      border: 3px solid black;
+  }
+  .stars{
+      cursor: pointer;
+  }
