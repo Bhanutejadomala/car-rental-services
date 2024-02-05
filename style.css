@@ -5,11 +5,18 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    scroll-padding-top: 2rem;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
     list-style: none;
     text-decoration: none;
 }
+body{
+   overflow-x: hidden;
+}
+
+section{
+    padding-top: 7rem;
+}
+/* navigation bar */
 header{
     position: fixed;
     width: 100%;
@@ -22,6 +29,7 @@ header{
     background-color: rgb(180, 175, 175);
     padding: 15px 100px;
 }
+
 .title{
     color:black;
     margin-right: 5rem;
@@ -68,6 +76,8 @@ header{
     background: orangered;
 }
 
+
+
 /* home */
 .home{
     background: url('images/site_slider_filename.jpg');
@@ -93,7 +103,7 @@ header{
     color: orange;
 }
 .appstore{
-    margin-top:19rem;
+    margin-top:12rem;
     justify-content:space-around;
     align-items: flex-start;
     flex-direction: row;
@@ -110,9 +120,6 @@ header{
 
 /* rent */
 
-.ride{
-    margin-top: 5rem;
-}
 .ride-heading{
     text-align: center;
 }
@@ -222,10 +229,6 @@ header{
 
 /* services */
 
-.services {
-    margin-top: 5rem;
-}
-
 .services-heading{
     text-align: center;
 }
@@ -288,10 +291,6 @@ header{
 
  /* reviews */
 
- .review{
-    margin-top: 5rem;
-}
-
 .review-heading{
     text-align: center;
 }
@@ -351,7 +350,7 @@ header{
     align-items: center;
     justify-content: center;
     margin: 50px auto;
-    padding: 50px 0px;
+    /* padding: 50px 0px; */
 }
 
 .contact-heading {
@@ -489,14 +488,3 @@ textarea {
 }
 
 
-/* responsive  */
-
-@media  (max-width:990px){
-    
-    header{
-        padding: 18px 40px;
-    }
-    section{
-        padding: 50px 40px;
-    }
-}
